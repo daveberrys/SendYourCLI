@@ -37,7 +37,7 @@ jobs:
             - name: Set up Python ${{ env.pythonVersion }}
               uses: actions/setup-python@v4
               with:
-                python-version: ${{ env.pythonVersion }}\
+                python-version: ${{ env.pythonVersion }}
             
             - name: Install Python dependencies
               run: pip install -r requirements.txt
