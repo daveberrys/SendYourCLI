@@ -6,11 +6,11 @@ import os
 block_cipher = None
 
 if sys.platform == 'win32':
-  icon_file = os.path.join('assets', 'icon', 'SendYourFiles.ico')
+  icon_file = os.path.join('assets', 'SendYourFiles.ico')
 elif sys.platform == 'darwin':
-  icon_file = os.path.join('assets', 'icon', 'SendYourFiles.icns')
+  icon_file = os.path.join('assets', 'SendYourFiles.icns')
 else:
-  icon_file = os.path.join('assets', 'icon', 'SendYourFiles.png')
+  icon_file = os.path.join('assets', 'SendYourFiles.png')
 
 a = Analysis(
   ['main.py'],
