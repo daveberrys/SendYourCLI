@@ -1,3 +1,6 @@
 *venv*
 *pycache*
 __init__.py
+
+dist
+build

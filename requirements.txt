@@ -1,3 +1,4 @@
 requests
 InquirerPy
 termcolor
+pyinstaller
