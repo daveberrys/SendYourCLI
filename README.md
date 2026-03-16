@@ -1,7 +1,7 @@
 # SendYourCLI
-This one is just a random project. I don't expect this to be recognized.
+This one is just a random project. I don't expect this to be recognized. CLI and Interative Terminal can be used.
 
-<img src="readme/preview.gif" alt="preview" width="300">
+<img src="readme/preview.gif" alt="preview" width="500">
 
 ## Nightly Links
 - Windows: https://nightly.link/daveberrys/SendYourCLI/workflows/main/main/SendYourCLI-Windows.zip
@@ -24,6 +24,23 @@ Download the binary from the zip file, extract it, place `SendYourCLI-Linux` in 
 
 ### macOS:
 I don't know. At least this is better than Windows though. Find it in youtube or use google or something.
+
+## Usage (Flags)
+**Example usage:**
+```bash
+syc --provider=litterbox --file="/home/daveberrys/Videos/man.mp4" --duration=12h --copy
+```
+
+**Flags**
+- `--provider`: Provider to use (`catbox`, `litterbox`, `buzzheavier`)
+- `--file`: Path to the file to send
+- `--duration`: Duration for `litterbox` (`1h`, `12h`, `24h`, `72h`)
+- `--copy`: Copy the link to the clipboard
+
+Or, if you're confused, just do
+```bash
+syc --help
+```
 
 ## Pro tips!
 - Instead of `SendYouCLI-Linux`, make it `syc` or `sendyourcli` so you don't have to do all case-sensitive!
